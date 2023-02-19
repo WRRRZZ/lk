@@ -32,11 +32,11 @@
 from time import sleep
 from requests import post, get
 from random import randint
-from tools.tool import get_environ, timestamp
-from tools.send_msg import push
+from tool import get_environ, timestamp
+from send_msg import push
 from uuid import uuid4
-from tools.notify import send
-from tools.ql_api import get_cookie
+from notify import send
+from ql_api import get_cookie
 import threading
 
 
